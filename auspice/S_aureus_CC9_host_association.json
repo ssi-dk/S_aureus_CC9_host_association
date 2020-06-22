@@ -39,47 +39,47 @@
         "scale": [
           [
             "Tanzania",
-            "#F2F3F4"
+            "#1F78C8"
           ],
           [
             "United Kingdom",
-            "#222222"
+            "#ff0000"
           ],
           [
             "USA",
-            "#F3C300"
+            "#33a02c"
           ],
           [
             "Germany",
-            "#875692"
+            "#6A33C2"
           ],
           [
             "Mexico",
-            "#F38400"
+            "#ff7f00"
           ],
           [
             "China",
-            "#A1CAF1"
+            "#565656"
           ],
           [
             "Netherlands",
-            "#BE0032"
+            "#FFD700"
           ],
           [
             "Taiwan",
-            "#C2B280"
+            "#a6cee3"
           ],
           [
             "Colombia",
-            "#848482"
+            "#FB6496"
           ],
           [
             "Poland",
-            "#008856"
+            "#b2df8a"
           ],
           [
             "Czech Republic",
-            "#E68FAC"
+            "#CAB2D6"
           ]
         ],
         "title": "Country",

@@ -101,14 +101,14 @@ continent	South America	#4daf4a
 continent	North America	#984ea3
 continent	Asia	#ffff33
 
-country	Tanzania	#F2F3F4
-country	United Kingdom	#222222
-country	USA	#F3C300
-country	Germany	#875692
-country	Mexico	#F38400
-country	China	#A1CAF1
-country	Netherlands	#BE0032
-country	Taiwan	#C2B280
-country	Colombia	#848482
-country	Poland	#008856
-country	Czech Republic	#E68FAC
+country	Tanzania	#1F78C8
+country	United Kingdom	#ff0000
+country	USA	#33a02c
+country	Germany	#6A33C2
+country	Mexico	#ff7f00
+country	China	#565656
+country	Netherlands	#FFD700
+country	Taiwan	#a6cee3
+country	Colombia	#FB6496
+country	Poland	#b2df8a
+country	Czech Republic	#CAB2D6
