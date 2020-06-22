@@ -1,0 +1,226 @@
+{
+  "title": "S. aureus CC9 evolution",
+  "maintainers": [
+    {"name": "Raphael Sieber, Statens Serum Institut (SSI), Denmark", "url": "mailto:rasi@ssi.dk"}
+  ],
+  "build_url": "https://nextstrain.org/community/ssi-dk/S_aureus_CC9_evolution",
+  "colorings": [
+    {
+      "key": "source",
+      "title": "Source",
+      "type": "categorical"
+    },
+    {
+      "key": "country",
+      "title": "Country",
+      "type": "categorical"
+    },
+    {
+      "key": "continent",
+      "title": "Continent",
+      "type": "categorical"
+    },
+    {
+      "key": "scn",
+      "title": "Scn presence/absence",
+      "type": "categorical"
+    },
+    {
+      "key": "SCCmec",
+      "title": "SCCmec type",
+      "type": "categorical"
+    },
+    {
+      "key": "no_res_genes",
+      "title": "Number of resistance genes",
+      "type": "continuous"
+    },
+    {
+      "key": "aac(6')-aph(2'')",
+      "title": "aac(6')-aph(2'') resistance gene presence",
+      "type": "categorical"
+    },
+    {
+      "key": "aadD",
+      "title": "aadD resistance gene presence",
+      "type": "categorical"
+    },
+    {
+      "key": "aadE",
+      "title": "aadE resistance gene presence",
+      "type": "categorical"
+    },
+    {
+      "key": "aph(2'')-Ic",
+      "title": "aph(2'')-Ic resistance gene presence",
+      "type": "categorical"
+    },
+    {
+      "key": "blaTEM-116",
+      "title": "blaTEM-116 resistance gene presence",
+      "type": "categorical"
+    },
+    {
+      "key": "blaZ",
+      "title": "blaZ resistance gene presence",
+      "type": "categorical"
+    },
+    {
+      "key": "cat(pC221)",
+      "title": "cat(pC221) resistance gene presence",
+      "type": "categorical"
+    },
+    {
+      "key": "dfrG",
+      "title": "dfrG resistance gene presence",
+      "type": "categorical"
+    },
+    {
+      "key": "dfrK",
+      "title": "dfrK resistance gene presence",
+      "type": "categorical"
+    },
+    {
+      "key": "erm(A)",
+      "title": "erm(A) resistance gene presence",
+      "type": "categorical"
+    },
+    {
+      "key": "erm(B)",
+      "title": "erm(B) resistance gene presence",
+      "type": "categorical"
+    },
+    {
+      "key": "erm(C)",
+      "title": "erm(C) resistance gene presence",
+      "type": "categorical"
+    },
+    {
+      "key": "erm(T)",
+      "title": "erm(T) resistance gene presence",
+      "type": "categorical"
+    },
+    {
+      "key": "fexA",
+      "title": "fexA resistance gene presence",
+      "type": "categorical"
+    },
+    {
+      "key": "lnu(A)",
+      "title": "lnu(A) resistance gene presence",
+      "type": "categorical"
+    },
+    {
+      "key": "lnu(B)",
+      "title": "lnu(B) resistance gene presence",
+      "type": "categorical"
+    },
+    {
+      "key": "lsa(A)",
+      "title": "lsa(A) resistance gene presence",
+      "type": "categorical"
+    },
+    {
+      "key": "mecA",
+      "title": "mecA resistance gene presence",
+      "type": "categorical"
+    },
+    {
+      "key": "spc",
+      "title": "spc resistance gene presence",
+      "type": "categorical"
+    },
+    {
+      "key": "str",
+      "title": "str resistance gene presence",
+      "type": "categorical"
+    },
+    {
+      "key": "tet(K)",
+      "title": "tet(K) resistance gene presence",
+      "type": "categorical"
+    },
+    {
+      "key": "tet(L)",
+      "title": "tet(L) resistance gene presence",
+      "type": "categorical"
+    },
+    {
+      "key": "tet(M)",
+      "title": "tet(M) resistance gene presence",
+      "type": "categorical"
+    },
+    {
+      "key": "tet(T)",
+      "title": "tet(T) resistance gene presence",
+      "type": "categorical"
+    },
+    {
+      "key": "tet(U)",
+      "title": "tet(U) resistance gene presence",
+      "type": "categorical"
+    },
+    {
+      "key": "vga(A)",
+      "title": "vga(A) resistance gene presence",
+      "type": "categorical"
+    },
+    {
+      "key": "vga(A)LC",
+      "title": "vga(A)LC resistance gene presence",
+      "type": "categorical"
+    },
+    {
+      "key": "author",
+      "title": "Authors",
+      "type": "categorical"
+    }
+  ],
+  "geo_resolutions": [
+    {"key":"country", "title": "Country"},
+    {"key":"continent", "title": "Continent"}
+  ],
+  "panels": ["tree", "map"],
+  "filters": [
+    "SCCmec",
+    "no_res_genes",
+    "scn",
+    "year",
+    "continent",
+    "country",
+    "aac(6')-aph(2'')", 
+    "aadD", 
+    "aadE", 
+    "aph(2'')-Ic", 
+    "blaTEM-116", 
+    "blaZ", 
+    "cat(pC221)", 
+    "dfrG", 
+    "dfrK", 
+    "erm(A)", 
+    "erm(B)", 
+    "erm(C)", 
+    "erm(T)", 
+    "fexA", 
+    "lnu(A)", 
+    "lnu(B)", 
+    "lsa(A)", 
+    "mecA", 
+    "spc", 
+    "str", 
+    "tet(K)", 
+    "tet(L)", 
+    "tet(M)", 
+    "tet(T)", 
+    "tet(U)", 
+    "vga(A)", 
+    "vga(A)LC",
+    "author"
+  ],
+  "display_defaults": {
+    "color_by": "serogroup",
+    "geo_resolution": "country",
+    "distance_measure": "num_date",
+    "map_triplicate": true
+  }
+}

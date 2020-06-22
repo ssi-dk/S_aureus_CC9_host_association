@@ -1,0 +1,114 @@
+scn	scn-	#C0C0C0
+scn	scn+	#ca0020
+
+SCCmec	SCCmec IV(2B)	#e41a1c
+SCCmec	SCCmec V(5C2&5)	#377eb8
+SCCmec	SCCmec XII(9C2)	#4daf4a
+SCCmec	none	#C0C0C0
+
+aac(6')-aph(2'') absent #C0C0C0
+aac(6')-aph(2'') present #ca0020
+
+aadD absent #C0C0C0
+aadD present #ca0020
+
+aadE absent #C0C0C0
+aadE present #ca0020
+
+aph(2'')-Ic absent #C0C0C0
+aph(2'')-Ic present #ca0020
+
+blaTEM-116 absent #C0C0C0
+blaTEM-116 present #ca0020
+
+blaZ absent #C0C0C0
+blaZ present #ca0020
+
+cat(pC221) absent #C0C0C0
+cat(pC221) present #ca0020
+
+dfrG absent #C0C0C0
+dfrG present #ca0020
+
+dfrK absent #C0C0C0
+dfrK present #ca0020
+
+erm(A) absent #C0C0C0
+erm(A) present #ca0020
+
+erm(B) absent #C0C0C0
+erm(B) present #ca0020
+
+erm(C) absent #C0C0C0
+erm(C) present #ca0020
+
+erm(T) absent #C0C0C0
+erm(T) present #ca0020
+
+fexA absent #C0C0C0
+fexA present #ca0020
+
+lnu(A) absent #C0C0C0
+lnu(A) present #ca0020
+
+lnu(B) absent #C0C0C0
+lnu(B) present #ca0020
+
+lsa(A) absent #C0C0C0
+lsa(A) present #ca0020
+
+mecA absent #C0C0C0
+mecA present #ca0020
+
+spc absent #C0C0C0
+spc present #ca0020
+
+str absent #C0C0C0
+str present #ca0020
+
+tet(K) absent #C0C0C0
+tet(K) present #ca0020
+
+tet(L) absent #C0C0C0
+tet(L) present #ca0020
+
+tet(M) absent #C0C0C0
+tet(M) present #ca0020
+
+tet(T) absent #C0C0C0
+tet(T) present #ca0020
+
+tet(U) absent #C0C0C0
+tet(U) present #ca0020
+
+vga(A) absent #C0C0C0
+vga(A) present #ca0020
+
+vga(A)LC absent #C0C0C0
+vga(A)LC present #ca0020
+
+author	various authors	#ca0020
+
+source	Human	#e41a1c
+source	Meat	#377eb8
+source	Pig	#4daf4a
+source	Poultry	#984ea3
+source	Bovine	#ffff33
+
+continent	Europe	#e41a1c
+continent	Africa	#377eb8
+continent	South America	#4daf4a
+continent	North America	#984ea3
+continent	Asia	#ffff33
+
+country	Tanzania	#F2F3F4
+country	United Kingdom	#222222
+country	USA	#F3C300
+country	Germany	#875692
+country	Mexico	#F38400
+country	China	#A1CAF1
+country	Netherlands	#BE0032
+country	Taiwan	#C2B280
+country	Colombia	#848482
+country	Poland	#008856
+country	Czech Republic	#E68FAC
