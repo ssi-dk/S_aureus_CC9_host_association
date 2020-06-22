@@ -3,7 +3,7 @@
   "maintainers": [
     {"name": "Raphael Sieber, Statens Serum Institut (SSI), Denmark", "url": "mailto:rasi@ssi.dk"}
   ],
-  "build_url": "https://nextstrain.org/community/ssi-dk/S_aureus_CC9_evolution",
+  "build_url": "https://nextstrain.org/community/ssi-dk/S_aureus_CC9_host_association",
   "colorings": [
     {
       "key": "source",
