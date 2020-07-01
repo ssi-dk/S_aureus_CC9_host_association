@@ -54,9 +54,6 @@ lnu(A) present #ca0020
 lnu(B) absent #C0C0C0
 lnu(B) present #ca0020
 
-lsa(A) absent #C0C0C0
-lsa(A) present #ca0020
-
 mecA absent #C0C0C0
 mecA present #ca0020
 

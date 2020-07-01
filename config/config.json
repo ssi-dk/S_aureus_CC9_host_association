@@ -21,13 +21,13 @@
       "type": "categorical"
     },
     {
-      "key": "scn",
-      "title": "Scn presence/absence",
+      "key": "SCCmec",
+      "title": "SCCmec type",
       "type": "categorical"
     },
     {
-      "key": "SCCmec",
-      "title": "SCCmec type",
+      "key": "scn",
+      "title": "Scn presence/absence",
       "type": "categorical"
     },
     {
@@ -116,11 +116,6 @@
       "type": "categorical"
     },
     {
-      "key": "lsa(A)",
-      "title": "lsa(A) resistance gene presence",
-      "type": "categorical"
-    },
-    {
       "key": "mecA",
       "title": "mecA resistance gene presence",
       "type": "categorical"
@@ -182,12 +177,12 @@
   ],
   "panels": ["tree", "map"],
   "filters": [
+    "continent",
+    "country",
+    "year",
     "SCCmec",
     "no_res_genes",
     "scn",
-    "year",
-    "continent",
-    "country",
     "aac(6')-aph(2'')", 
     "aadD", 
     "aadE", 
@@ -204,7 +199,6 @@
     "fexA", 
     "lnu(A)", 
     "lnu(B)", 
-    "lsa(A)", 
     "mecA", 
     "spc", 
     "str", 
@@ -218,7 +212,7 @@
     "author"
   ],
   "display_defaults": {
-    "color_by": "serogroup",
+    "color_by": "source",
     "geo_resolution": "country",
     "distance_measure": "num_date",
     "map_triplicate": true
